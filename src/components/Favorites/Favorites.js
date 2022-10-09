@@ -42,7 +42,7 @@ export class ConnectedList extends Component {
              </NavLink>
              <img className={s.fill} src={trash}
              onClick={() => this.props.removeMovieFavourite(movie.imdbID)} 
-              />
+              alt='trash' />
             </div>
             )
           }

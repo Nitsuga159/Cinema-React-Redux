@@ -55,12 +55,12 @@ export class Buscador extends Component {
               this.props.decrementPage();
               this.props.getMovies(this.state.title, this.props.page - 1)
             }
-          } />
+          } alt='retroceder' />
           <img src={arrowRight} onClick={() => {
               this.props.incrementPage();
               this.props.getMovies(this.state.title, this.props.page + 1)       
             }
-          } />
+          } alt='avanzar' />
         </div>}
         <ul className={this.props.movies ? s['list-movies'] : s['search-error']}>
           {
@@ -88,12 +88,12 @@ export class Buscador extends Component {
               this.props.decrementPage();
               this.props.getMovies(this.state.title, this.props.page - 1)
             }
-          } />
+          } alt='retroceder' />
           <img src={arrowRight} onClick={() => {
               this.props.incrementPage();
               this.props.getMovies(this.state.title, this.props.page + 1)       
             }
-          } />
+          } alt='avanzar' />
         </div>}
       </div>
     );
