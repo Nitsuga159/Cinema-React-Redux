@@ -1,0 +1,172 @@
+:root {
+  --dark-brown: #110b07;
+  --dark-gray: #100f0f;
+  --strong-brown: #361500;
+  --strong-gray: #3a3838;
+  --brown: #603601;
+  --light-brown: #d8b05f;
+  --light-yellow: #f6cf50;
+}
+
+.container-search {
+  min-height: calc(100vh - 56px); 
+  text-align: center;
+}
+
+.favourites-movies {
+  text-align: left;
+  margin: 15px 0 15px 30px;
+  font-size: 2.5rem;
+  color: var(--light-brown);
+}
+
+.filter-container {
+  text-align: left;
+
+}
+
+.filter-container input {
+  height: 100%;
+  width: 300px;
+  padding: 15px;
+  margin-left: 25px;
+  color: var(--light-brown);
+  font-size: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--dark-gray);
+}
+
+.filter-container input:focus {
+  border: 1px solid var(--light-yellow)
+}
+
+/* LISTAS DE PELÍCULAS */
+
+.list-movies {
+  display: grid;
+  margin-bottom: 50px;
+  padding: 25px;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 350px));
+  column-gap: 25px;
+  row-gap: 35px;
+  list-style: none;
+}
+
+.movie-item {
+  text-align: center;
+  font-size: 1.5rem;
+  position: relative;
+  background-color: var(--dark-gray);
+  border-radius: 5px;
+  border: 1px solid var(--light-yellow);
+  box-shadow: 5px 5px 10px 5px black;
+  transition: all 0.3s ease;
+  animation: aparecer 0.4s ease;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.movie-item:hover {
+  transform: scale(1.05);
+}
+
+.movie-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.movie-link:hover {
+  color: var(--light-yellow);
+}
+
+.movie-item figure {
+  background-color: var(--strong-gray);
+  padding-bottom: 10px;
+  border-radius: 0px 0px 5px 5px;
+  box-shadow: 0px 2px 2px white;
+}
+
+.movie-item figure img {
+  width: 100%;
+  border: 1px solid var(--strong-gray);
+}
+
+.movie-item figcaption {
+  width: 300px;
+}
+
+.fill {
+  position: absolute;
+  height: 40px;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.fill:hover {
+  transform: rotate(-22.5deg) scale(1.3);
+  filter: brightness(2.5) drop-shadow(2px 2px 10px rgb(138, 10, 10));
+}
+
+@media screen and (max-width: 800px) {
+
+  .movie-item figure > img, .movie-item figcaption {
+      width: 250px;
+      font-size: 16px;
+  }
+ 
+  .list-movies {
+      grid-template-columns: repeat(auto-fit, 300px);
+  }
+
+  .fill {
+    height: 30px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .favourites-movies {
+      margin: 20px 0px 10px 10px;
+      font-size: 1.7rem;
+  }
+
+  .filter-container input {
+    height: 25px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .movie-item figure > img, .movie-item figcaption {
+      width: 180px;
+      height: auto;
+  }
+ 
+  .list-movies {
+      grid-template-columns: repeat(auto-fit, 250px);
+  }
+
+  .fill {
+    right: 16px;
+  }
+
+}

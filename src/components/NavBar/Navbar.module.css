@@ -1,0 +1,44 @@
+.navbar {
+    height: 56px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: sticky;
+    background-color: #191a1b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    border-bottom: 2px solid goldenrod;
+    box-sizing: border-box;
+    z-index: 99;
+}
+
+.list-item {
+    display: flex;   
+}
+
+.list-item * {
+    font-size: 1.5rem;
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.list-item *:hover {
+    color: goldenrod;
+}
+
+@media screen and (max-width: 800px) {
+    .nav-list {
+        width: 100%;
+    }
+
+    .list-item {
+        justify-content: space-around;
+    }
+
+    .list-item * {
+        margin: 0;
+    }
+}
