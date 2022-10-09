@@ -29,6 +29,10 @@
     color: goldenrod;
 }
 
+.active-link {
+    color: goldenrod;
+}
+
 @media screen and (max-width: 800px) {
     .nav-list {
         width: 100%;
