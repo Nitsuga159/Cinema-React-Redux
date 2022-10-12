@@ -52,6 +52,7 @@ export class Buscador extends Component {
         </form>
         {this.props.movies && <div className={s.arrows}>
           <img src={arrowLeft}  onClick={() => {
+              if(this.props.page === 1) return false;
               this.props.decrementPage();
               this.props.getMovies(this.state.title, this.props.page - 1)
             }

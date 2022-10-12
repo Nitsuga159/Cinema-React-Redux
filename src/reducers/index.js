@@ -15,6 +15,7 @@ export default function rootReducer(state = initialState, action) {
         moviesFavourites: [...state.moviesFavourites, action.payload]
       };
     case 'GET_MOVIES':
+      if(action.payload.Error === 'Movie not found!') return {...state, page: state.page - 1}
       return {
         ...state,
         moviesLoaded: action.payload.Search,
