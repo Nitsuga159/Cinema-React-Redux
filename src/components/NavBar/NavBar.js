@@ -9,7 +9,7 @@ export default function NavBar() {
             <nav>
                 <ul className={s['nav-list']}>
                     <li className={s['list-item']}>
-                        <NavLink exact to="/catalogo" activeClassName={s['active-link']}>Catálogo</NavLink>
+                        <NavLink exact to="/catalogos" activeClassName={s['active-link']}>Catálogo</NavLink>
                         <NavLink exact to="/favs" activeClassName={s['active-link']}>Favoritas</NavLink>
                     </li>
                 </ul>
