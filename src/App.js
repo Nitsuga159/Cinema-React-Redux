@@ -10,7 +10,7 @@ function App() {
   return (
       <React.Fragment>
           <NavBar />
-          <Route exact path="/catalogo" component={Buscador} />
+          <Route exact path="/catalogos" component={Buscador} />
           <Route path="/favs" component={Favorites} />
           <Route path="/movie/:id" component={Movie} />
           <Route path="/" render={() => <footer>&copy; AR 2022</footer>} />
