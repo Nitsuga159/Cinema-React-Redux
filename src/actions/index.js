@@ -12,7 +12,7 @@ export function getMovieDetail(imdbID) {
   return dispatch => {
     fetch(`${URL}?apikey=${API_KEY}&i=${imdbID}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
-    .then(json => dispatch({ type: 'GET_MOVIE_DETAIL', payload: json }))
+    .then(payload => dispatch({ type: 'GET_MOVIE_DETAIL', payload }))
   };
 }
 
@@ -29,7 +29,7 @@ export function getMovies(titulo, page = 1) {
   return dispatch => {
     fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${titulo}&page=${page}`)
     .then(res => res.ok ? res.json() : Promise.reject(res))
-    .then(json => dispatch({ type: 'GET_MOVIES', payload: json, title: titulo }))
+    .then(payload => dispatch({ type: 'GET_MOVIES', payload, title: titulo }))
     .catch(res => dispatch({ type: 'GET_MOVIES', payload: res, title: titulo }));
   };
 }
