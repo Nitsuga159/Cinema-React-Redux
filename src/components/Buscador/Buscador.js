@@ -35,7 +35,7 @@ export class Buscador extends Component {
 
     return (
       <div className={s['container-search']}>
-        <h1 className={s['title']}>BUSCADOR CINEMA</h1>
+        <h1 className={s['title']}>CATÁLOGO DE PELÍCULAS</h1>
         <h2 className={s['search-title']}>Título:</h2>
         <form className={s['form-container']} onSubmit={(e) => this.handleSubmit(e)}>
           <div>
