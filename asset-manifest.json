@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Nitsuga159/Cinema-React-Redux.git/static/css/main.efa06bb3.chunk.css",
-    "main.js": "/Nitsuga159/Cinema-React-Redux.git/static/js/main.d702a889.chunk.js",
-    "main.js.map": "/Nitsuga159/Cinema-React-Redux.git/static/js/main.d702a889.chunk.js.map",
-    "runtime-main.js": "/Nitsuga159/Cinema-React-Redux.git/static/js/runtime-main.cc61715d.js",
-    "runtime-main.js.map": "/Nitsuga159/Cinema-React-Redux.git/static/js/runtime-main.cc61715d.js.map",
-    "static/js/2.747f5bba.chunk.js": "/Nitsuga159/Cinema-React-Redux.git/static/js/2.747f5bba.chunk.js",
-    "static/js/2.747f5bba.chunk.js.map": "/Nitsuga159/Cinema-React-Redux.git/static/js/2.747f5bba.chunk.js.map",
-    "index.html": "/Nitsuga159/Cinema-React-Redux.git/index.html",
-    "static/css/main.efa06bb3.chunk.css.map": "/Nitsuga159/Cinema-React-Redux.git/static/css/main.efa06bb3.chunk.css.map",
-    "static/js/2.747f5bba.chunk.js.LICENSE.txt": "/Nitsuga159/Cinema-React-Redux.git/static/js/2.747f5bba.chunk.js.LICENSE.txt",
-    "static/media/arrow-left.b6a45ac9.svg": "/Nitsuga159/Cinema-React-Redux.git/static/media/arrow-left.b6a45ac9.svg",
-    "static/media/arrow-right.ea649ac0.svg": "/Nitsuga159/Cinema-React-Redux.git/static/media/arrow-right.ea649ac0.svg",
-    "static/media/App.css": "/Nitsuga159/Cinema-React-Redux.git/static/media/fondo-cine.3e3c7a01.jpg",
-    "static/media/loader.e483e610.svg": "/Nitsuga159/Cinema-React-Redux.git/static/media/loader.e483e610.svg",
-    "static/media/not-image.239ef5b0.jpg": "/Nitsuga159/Cinema-React-Redux.git/static/media/not-image.239ef5b0.jpg",
-    "static/media/start.2e45467d.svg": "/Nitsuga159/Cinema-React-Redux.git/static/media/start.2e45467d.svg",
-    "static/media/trash.6c7fda97.svg": "/Nitsuga159/Cinema-React-Redux.git/static/media/trash.6c7fda97.svg"
+    "main.css": "/Cinema-React-Redux/static/css/main.615365b3.chunk.css",
+    "main.js": "/Cinema-React-Redux/static/js/main.d702a889.chunk.js",
+    "main.js.map": "/Cinema-React-Redux/static/js/main.d702a889.chunk.js.map",
+    "runtime-main.js": "/Cinema-React-Redux/static/js/runtime-main.a96df1a2.js",
+    "runtime-main.js.map": "/Cinema-React-Redux/static/js/runtime-main.a96df1a2.js.map",
+    "static/js/2.747f5bba.chunk.js": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js",
+    "static/js/2.747f5bba.chunk.js.map": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js.map",
+    "index.html": "/Cinema-React-Redux/index.html",
+    "static/css/main.615365b3.chunk.css.map": "/Cinema-React-Redux/static/css/main.615365b3.chunk.css.map",
+    "static/js/2.747f5bba.chunk.js.LICENSE.txt": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.b6a45ac9.svg": "/Cinema-React-Redux/static/media/arrow-left.b6a45ac9.svg",
+    "static/media/arrow-right.ea649ac0.svg": "/Cinema-React-Redux/static/media/arrow-right.ea649ac0.svg",
+    "static/media/App.css": "/Cinema-React-Redux/static/media/fondo-cine.3e3c7a01.jpg",
+    "static/media/loader.e483e610.svg": "/Cinema-React-Redux/static/media/loader.e483e610.svg",
+    "static/media/not-image.239ef5b0.jpg": "/Cinema-React-Redux/static/media/not-image.239ef5b0.jpg",
+    "static/media/start.2e45467d.svg": "/Cinema-React-Redux/static/media/start.2e45467d.svg",
+    "static/media/trash.6c7fda97.svg": "/Cinema-React-Redux/static/media/trash.6c7fda97.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cc61715d.js",
+    "static/js/runtime-main.a96df1a2.js",
     "static/js/2.747f5bba.chunk.js",
-    "static/css/main.efa06bb3.chunk.css",
+    "static/css/main.615365b3.chunk.css",
     "static/js/main.d702a889.chunk.js"
   ]
 }
