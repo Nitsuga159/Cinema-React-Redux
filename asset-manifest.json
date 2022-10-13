@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Cinema-React-Redux/static/css/main.615365b3.chunk.css",
-    "main.js": "/Cinema-React-Redux/static/js/main.883c768c.chunk.js",
-    "main.js.map": "/Cinema-React-Redux/static/js/main.883c768c.chunk.js.map",
-    "runtime-main.js": "/Cinema-React-Redux/static/js/runtime-main.a96df1a2.js",
-    "runtime-main.js.map": "/Cinema-React-Redux/static/js/runtime-main.a96df1a2.js.map",
-    "static/js/2.747f5bba.chunk.js": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js",
-    "static/js/2.747f5bba.chunk.js.map": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js.map",
-    "index.html": "/Cinema-React-Redux/index.html",
-    "static/css/main.615365b3.chunk.css.map": "/Cinema-React-Redux/static/css/main.615365b3.chunk.css.map",
-    "static/js/2.747f5bba.chunk.js.LICENSE.txt": "/Cinema-React-Redux/static/js/2.747f5bba.chunk.js.LICENSE.txt",
-    "static/media/arrow-left.b6a45ac9.svg": "/Cinema-React-Redux/static/media/arrow-left.b6a45ac9.svg",
-    "static/media/arrow-right.ea649ac0.svg": "/Cinema-React-Redux/static/media/arrow-right.ea649ac0.svg",
-    "static/media/App.css": "/Cinema-React-Redux/static/media/fondo-cine.3e3c7a01.jpg",
-    "static/media/loader.e483e610.svg": "/Cinema-React-Redux/static/media/loader.e483e610.svg",
-    "static/media/not-image.239ef5b0.jpg": "/Cinema-React-Redux/static/media/not-image.239ef5b0.jpg",
-    "static/media/start.2e45467d.svg": "/Cinema-React-Redux/static/media/start.2e45467d.svg",
-    "static/media/trash.6c7fda97.svg": "/Cinema-React-Redux/static/media/trash.6c7fda97.svg"
+    "main.css": "/catalogos/static/css/main.efb616da.chunk.css",
+    "main.js": "/catalogos/static/js/main.883c768c.chunk.js",
+    "main.js.map": "/catalogos/static/js/main.883c768c.chunk.js.map",
+    "runtime-main.js": "/catalogos/static/js/runtime-main.f6e5c300.js",
+    "runtime-main.js.map": "/catalogos/static/js/runtime-main.f6e5c300.js.map",
+    "static/js/2.747f5bba.chunk.js": "/catalogos/static/js/2.747f5bba.chunk.js",
+    "static/js/2.747f5bba.chunk.js.map": "/catalogos/static/js/2.747f5bba.chunk.js.map",
+    "index.html": "/catalogos/index.html",
+    "static/css/main.efb616da.chunk.css.map": "/catalogos/static/css/main.efb616da.chunk.css.map",
+    "static/js/2.747f5bba.chunk.js.LICENSE.txt": "/catalogos/static/js/2.747f5bba.chunk.js.LICENSE.txt",
+    "static/media/arrow-left.b6a45ac9.svg": "/catalogos/static/media/arrow-left.b6a45ac9.svg",
+    "static/media/arrow-right.ea649ac0.svg": "/catalogos/static/media/arrow-right.ea649ac0.svg",
+    "static/media/App.css": "/catalogos/static/media/fondo-cine.3e3c7a01.jpg",
+    "static/media/loader.e483e610.svg": "/catalogos/static/media/loader.e483e610.svg",
+    "static/media/not-image.239ef5b0.jpg": "/catalogos/static/media/not-image.239ef5b0.jpg",
+    "static/media/start.2e45467d.svg": "/catalogos/static/media/start.2e45467d.svg",
+    "static/media/trash.6c7fda97.svg": "/catalogos/static/media/trash.6c7fda97.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a96df1a2.js",
+    "static/js/runtime-main.f6e5c300.js",
     "static/js/2.747f5bba.chunk.js",
-    "static/css/main.615365b3.chunk.css",
+    "static/css/main.efb616da.chunk.css",
     "static/js/main.883c768c.chunk.js"
   ]
 }
